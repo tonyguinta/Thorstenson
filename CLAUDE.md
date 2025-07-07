@@ -4,95 +4,69 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a fishing guide website for James ("Jamie") Thorstenson's business in Ely, MN. The project is currently in the planning/design phase with the following tech stack:
+This is a fishing guide website for James ("Jamie") Thorstenson's business in Ely, MN. Currently deployed and functional.
 
-- **Frontend:** Next.js (React, TypeScript)
-- **Styling:** TailwindCSS
-- **Hosting:** Vercel
-- **Backend (if needed):** FastAPI or serverless API routes
-- **Database (if needed):** PostgreSQL on Railway
-- **Payment Processing:** Stripe
-- **Third-Party Services:** Elfsight (Instagram feed), Facebook Page Plugin
+## Current Status - January 7, 2025
 
-## Key Features to Implement
+**✅ COMPLETED:**
+- Next.js project setup with TypeScript and Tailwind CSS
+- Responsive header navigation with mobile menu
+- Hero section with Jamie's fishing photo and text overlay
+- Features section highlighting guide expertise
+- Photo gallery preview with all fishing photos
+- Clean CTA section with consistent button styling
+- Footer with dynamic copyright year
+- Custom color scheme based on northern Minnesota wilderness
+- Mobile-optimized layout with bottom text overlay
+- Fixed all ESLint errors and configured linting
+- Fixed spelling: "thorsenson" → "thorstenson" throughout codebase
+- Successfully deployed to Vercel
 
-- Homepage with intro, CTA buttons, and social proof
-- About page for James, Brittney, and team members
-- Booking calendar with availability management and payments
-- Trips & Services overview with pricing and policies
-- Social media feed page (Adventure Log)
-- Photo Gallery with optional client submissions
-- FAQ and Contact pages
+**🏗️ RECENT SESSION WORK:**
+- Homepage fully styled and responsive
+- Hero image cropped (fish1.jpg) to focus on Jamie
+- Text overlay positioned at bottom with dark gradient for readability
+- All buttons styled consistently (white background style)
+- Project renamed from thorsenson-guide to thorstenson-guide
+- Vercel deployment working with correct root directory
 
-## Development Guidelines
+**📋 NEXT PRIORITIES:**
+1. **About Page**: Create bios for Jamie and Brittney
+   - Jamie: 38, fishing since childhood, 5+ years in Ely, owns "James of All Trades" contracting
+   - Brittney: Handles scheduling/finances, adventure partner, mother of Ella (22mo) + baby due October
+   - Use photos: Big Sis.png, snow-walk-with-ella.jpg
 
-- Use mobile-first responsive design
-- Implement SEO optimization
-- Use environment variables for API keys (Stripe, social media embeds)
-- Deploy preview environments via Vercel for feedback
-- Focus on performance and user experience
+2. **Services Page**: Trip options, pricing, equipment details
 
-## Open Decisions
+3. **Gallery Page**: Full photo collection
 
-- Combined site (contracting + guiding) vs. two separate sites
-- Custom booking scheduler vs. third-party solution (Calendly)
-- Final branding name (current idea: Tiller Bros, but local advice suggests including "Ely" or something Ely is known for)
+4. **Booking Page**: Calendar interface for Brittney to manage
 
-## Recommendations
+5. **Contact/FAQ Pages**: Basic content
 
-- **Start with guide business first** - Focus on new business that needs marketing push, add contracting section later
-- **Custom scheduler preferred** - More control, better integration, professional look for premium service
-- **Single site approach** - Two audiences likely overlap in Ely area, easier to manage, better SEO
-- **Ely/BWCA branding** - Consider "Boundary Waters" or "BWCA" related names based on local advice
-- **Mobile-first critical** - Fishing clients will book on phones while planning trips
-- **Focus on storytelling** - Jamie's authenticity/lifestyle is key differentiator in crowded guide market
+**🔧 EXTERNAL TASKS NEEDED:**
+- Rename GitHub repository to "Thorstenson" 
+- Update git remote URL after GitHub rename
+- If root directory renamed, update Vercel settings
 
-## Business Model Considerations
+## Key Info
 
-- Pricing strategy (half-day/full-day/multi-day trips)
-- Capacity planning (simultaneous client limits)
-- Weather contingency policies
-- Equipment provided vs. client responsibility
-- Seasonal business content strategy
-- Fishing guide insurance/liability requirements
-- Competition differentiation strategy
+**Stakeholders:**
+- Tony Guinta – Project lead, frontend developer (Jamie's stepson)
+- James "Jamie" Thorstenson – 38, general contractor + fishing guide, Ely MN
+- Brittney Thorstenson – Handles backoffice, scheduling, finances
 
-## Photo Analysis & Placement Strategy
+**Tech Stack:**
+- Next.js 15 with App Router, TypeScript, Tailwind CSS
+- Deployed on Vercel, runs on port 3001 locally
+- WSL file watching: `npm run dev` (uses WATCHPACK_POLLING=true)
 
-### Available Photos
-- **Big Sis.png** - Family photo by the lake (Jamie, Brittney, Ella) → Hero section or About page
-- **fish1.jpg** - Jamie with walleye on pristine lake → Hero section background or services page
-- **fish2.jpg** - Huge northern pike in boat → Gallery/success stories section
-- **fish3.jpg** - Happy client with rainbow trout → Testimonials or gallery
-- **fish4.jpg** - Jamie kayak fishing → Services page (shows different fishing methods)
-- **snow-walk-with-ella.jpg** - Jamie with baby in winter → About page (shows family/seasonal lifestyle)
+**Photo Assets:**
+- fish1.jpg (hero - Jamie with walleye, cropped)
+- fish2.jpg (northern pike)
+- fish3.jpg (client with rainbow trout) 
+- fish4.jpg (kayak fishing)
+- Big Sis.png (family photo)
+- snow-walk-with-ella.jpg (winter family photo)
 
-### Color Scheme
-Based on northern Minnesota wilderness and lake photos:
-- **Deep lake blues**: #1E3A8A, #3B82F6
-- **Forest greens**: #065F46, #10B981
-- **Warm earth tones**: #92400E, #F59E0B
-- **Clean whites/grays**: #F8FAFC, #64748B for contrast
-
-### Mockup Goals
-- Style-focused design to show "art of the possible"
-- Placeholder bios for Jamie and Brittney
-- Placeholder scheduling interface
-- Mobile-first responsive design
-- Emphasis on storytelling and authenticity
-
-## Key Stakeholders
-
-- **Tony Guinta** – Project lead, frontend developer (Tony's stepson)
-- **James "Jamie" Thorstenson** – Business owner, 38, general contractor wanting to start fishing guide business in Ely, MN. Outdoorsy, independent, intelligent, charismatic. Avoids chemicals/additives, loves bow-hunting, fishing, nature
-- **Brittney Thorstenson** – Jamie's wife, handles backoffice work, scheduling, and finances for both businesses. Adventure partner with Jamie. Mother to 22-month-old Ella, second baby due October
-
-## Current Status
-
-Project is in planning/design phase. Initial layout and feature list defined, awaiting final decisions on branding, site structure, and scheduler integration.
-
-## Notes
-
-- Brittney will manage bookings, payments, and social updates
-- Social feeds will auto-update via widgets
-- Admin dashboard may be built for managing availability/bookings if not using third-party tools
+Ready to continue with About page development.

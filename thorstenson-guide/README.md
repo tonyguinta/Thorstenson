@@ -74,7 +74,7 @@ public/
 
 Deploy to Vercel (recommended):
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/thorsenson-guide)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/thorstenson-guide)
 
 ## License
 

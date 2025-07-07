@@ -1,5 +1,5 @@
 {
-  "name": "thorsenson-guide",
+  "name": "thorstenson-guide",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,10 @@
     "dev-turbo": "CHOKIDAR_USEPOLLING=true next dev --turbopack --port 3001",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "prebuild": "npm run lint",
+    "pre-commit": "npm run lint"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
