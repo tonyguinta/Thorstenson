@@ -9,7 +9,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image
             src="/photos/fish1.jpg"
-            alt="Jamie fishing on pristine Minnesota lake"
+            alt="James fishing on pristine Minnesota lake"
             fill
             className="object-cover opacity-50"
             priority
@@ -25,7 +25,7 @@ export default function Home() {
                 Discover Ely&apos;s Best Fishing
               </h1>
               <p className="text-lg leading-8 mb-8 text-gray-100 lg:text-xl">
-                Experience world-class fishing in Minnesota&apos;s Boundary Waters with expert guide Jamie Thorstenson. 
+                Experience world-class fishing in Minnesota&apos;s Boundary Waters with expert guide James Thorstenson. 
                 From walleye to northern pike, create memories that last a lifetime.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -74,7 +74,7 @@ export default function Home() {
                   Local Knowledge
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Jamie knows the best spots and signs for catching walleye, northern pike, and everything in between. 
+                  James knows the best spots and signs for catching walleye, northern pike, and everything in between. 
                   Five years in Ely means he knows where the fish are hiding.
                 </dd>
               </div>
@@ -89,7 +89,7 @@ export default function Home() {
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
                   No weather can stop this family. From ice fishing in winter to perfect summer days, 
-                  Jamie knows how to find fish in any conditions.
+                  James knows how to find fish in any conditions.
                 </dd>
               </div>
               <div className="relative pl-16">
@@ -102,7 +102,7 @@ export default function Home() {
                   Lifetime of Fishing
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  Fishing since childhood with his parents, Jamie brings decades of experience and 
+                  Fishing since childhood with his parents, James brings decades of experience and 
                   genuine passion for the sport to every trip.
                 </dd>
               </div>
@@ -116,7 +116,7 @@ export default function Home() {
                   Community Focused
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">
-                  As owner of James of All Trades contracting, Jamie is invested in the community 
+                  As owner of James of All Trades contracting, James is invested in the community 
                   and dedicated to making a difference for families in Ely.
                 </dd>
               </div>
@@ -174,7 +174,7 @@ export default function Home() {
             <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80">
               <Image
                 src="/photos/fish4.jpg"
-                alt="Jamie kayak fishing"
+                alt="James kayak fishing"
                 fill
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
               />

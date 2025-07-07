@@ -1,6 +1,6 @@
 # Tiller Bros Guide Service Website
 
-A modern, responsive website for James ("Jamie") Thorstenson's fishing guide business in Ely, Minnesota. Built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive website for James Thorstenson's fishing guide business in Ely, Minnesota. Built with Next.js, TypeScript, and Tailwind CSS.
 
 ## Features
 

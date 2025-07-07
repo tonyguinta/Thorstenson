@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a fishing guide website for James ("Jamie") Thorstenson's business in Ely, MN. Currently deployed and functional.
+This is a fishing guide website for James Thorstenson's business in Ely, MN. Currently deployed and functional.
 
 ## Current Status - January 7, 2025
 
@@ -24,15 +24,15 @@ This is a fishing guide website for James ("Jamie") Thorstenson's business in El
 
 **🏗️ RECENT SESSION WORK:**
 - Homepage fully styled and responsive
-- Hero image cropped (fish1.jpg) to focus on Jamie
+- Hero image cropped (fish1.jpg) to focus on James
 - Text overlay positioned at bottom with dark gradient for readability
 - All buttons styled consistently (white background style)
 - Project renamed from thorsenson-guide to thorstenson-guide
 - Vercel deployment working with correct root directory
 
 **📋 NEXT PRIORITIES:**
-1. **About Page**: Create bios for Jamie and Brittney
-   - Jamie: 38, fishing since childhood, 5+ years in Ely, owns "James of All Trades" contracting
+1. **About Page**: Create bios for James and Brittney
+   - James: 38, fishing since childhood, 5+ years in Ely, owns "James of All Trades" contracting
    - Brittney: Handles scheduling/finances, adventure partner, mother of Ella (22mo) + baby due October
    - Use photos: Big Sis.png, snow-walk-with-ella.jpg
 
@@ -53,7 +53,7 @@ This is a fishing guide website for James ("Jamie") Thorstenson's business in El
 
 **Stakeholders:**
 - Tony Guinta – Project lead, frontend developer (Jamie's stepson)
-- James "Jamie" Thorstenson – 38, general contractor + fishing guide, Ely MN
+- James Thorstenson – 38, general contractor + fishing guide, Ely MN
 - Brittney Thorstenson – Handles backoffice, scheduling, finances
 
 **Tech Stack:**
@@ -62,7 +62,7 @@ This is a fishing guide website for James ("Jamie") Thorstenson's business in El
 - WSL file watching: `npm run dev` (uses WATCHPACK_POLLING=true)
 
 **Photo Assets:**
-- fish1.jpg (hero - Jamie with walleye, cropped)
+- fish1.jpg (hero - James with walleye, cropped)
 - fish2.jpg (northern pike)
 - fish3.jpg (client with rainbow trout) 
 - fish4.jpg (kayak fishing)
