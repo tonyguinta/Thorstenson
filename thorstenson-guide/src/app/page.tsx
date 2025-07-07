@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  // STAGING: Testing staging branch deployment
   return (
     <>
       {/* Hero Section */}
