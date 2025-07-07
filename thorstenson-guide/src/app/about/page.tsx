@@ -19,7 +19,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="order-2 lg:order-1">
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">James "Jamie" Thorstenson</h2>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">James &quot;Jamie&quot; Thorstenson</h2>
               <h3 className="text-xl text-blue-700 font-semibold mb-6">Your Fishing Guide & Local Expert</h3>
               
               <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -32,7 +32,7 @@ export default function About() {
                 <p>
                   For over 5 years, James has called Ely home, establishing himself not just as a 
                   fishing guide but as a pillar of the community through his contracting business, 
-                  "James of All Trades." His dual expertise in construction and guiding gives him 
+                  &quot;James of All Trades.&quot; His dual expertise in construction and guiding gives him 
                   unique insights into both the natural and built environments of the area.
                 </p>
                 
@@ -62,7 +62,7 @@ export default function About() {
                 />
                 <div className="absolute -bottom-6 -right-6 bg-blue-700 text-white p-4 rounded-lg shadow-lg max-w-xs">
                   <p className="text-sm font-medium">
-                    "Every cast tells a story, every catch creates a memory"
+                    &quot;Every cast tells a story, every catch creates a memory&quot;
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function About() {
                 />
                 <div className="absolute -bottom-6 -left-6 bg-emerald-700 text-white p-4 rounded-lg shadow-lg max-w-xs">
                   <p className="text-sm font-medium">
-                    "Behind every great adventure is great planning"
+                    &quot;Behind every great adventure is great planning&quot;
                   </p>
                 </div>
               </div>
