@@ -82,6 +82,7 @@ export default function About() {
                   alt="Brittney Thorstenson with daughter Ella on the beach"
                   width={600}
                   height={700}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
                   className="rounded-lg shadow-xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-emerald-700 text-white p-4 rounded-lg shadow-lg max-w-xs">

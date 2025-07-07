@@ -11,6 +11,7 @@ export default function Home() {
             src="/photos/fish1.jpg"
             alt="James fishing on pristine Minnesota lake"
             fill
+            sizes="100vw"
             className="object-cover opacity-50"
             priority
           />
@@ -159,7 +160,9 @@ export default function Home() {
                 src="/photos/fish3.jpg"
                 alt="Happy client with rainbow trout"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="absolute inset-0 -z-10 h-full w-full object-cover"
+                priority
               />
               <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
               <div className="bg-black/60 rounded-lg p-4 backdrop-blur-sm">
