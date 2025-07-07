@@ -138,7 +138,7 @@ export default function FAQ() {
             <div className="bg-blue-50 rounded-xl p-6 mb-12 text-center">
               <h2 className="text-xl font-bold text-gray-900 mb-2">Still have questions?</h2>
               <p className="text-gray-600 mb-4">
-                We're here to help! Contact us directly for personalized answers.
+                {"We're here to help! Contact us directly for personalized answers."}
               </p>
               <div className="flex justify-center space-x-4">
                 <a 
@@ -201,7 +201,7 @@ export default function FAQ() {
             <div className="bg-blue-900 text-white rounded-xl p-8 text-center mt-12">
               <h2 className="text-2xl font-bold mb-4">Ready to Book Your Adventure?</h2>
               <p className="text-blue-100 mb-6">
-                Don't see your question answered? We'd love to chat and help plan your perfect fishing trip.
+                {"Don't see your question answered? We'd love to chat and help plan your perfect fishing trip."}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
