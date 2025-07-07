@@ -87,9 +87,46 @@ Based on northern Minnesota wilderness and lake photos:
 - **James "Jamie" Thorstenson** – Business owner, 38, general contractor wanting to start fishing guide business in Ely, MN. Outdoorsy, independent, intelligent, charismatic. Avoids chemicals/additives, loves bow-hunting, fishing, nature
 - **Brittney Thorstenson** – Jamie's wife, handles backoffice work, scheduling, and finances for both businesses. Adventure partner with Jamie. Mother to 22-month-old Ella, second baby due October
 
-## Current Status
+## Development Commands
 
-Project is in planning/design phase. Initial layout and feature list defined, awaiting final decisions on branding, site structure, and scheduler integration.
+```bash
+# Development server (with WSL file watching fix)
+npm run dev                    # Runs on port 3001
+
+# Alternative with Turbopack
+npm run dev-turbo             # With polling for WSL
+
+# Build and deployment
+npm run build                 # Production build
+npm run start                 # Start production server
+npm run lint                  # ESLint check
+```
+
+## Current Implementation Status
+
+**✅ Completed:**
+- Next.js project setup with TypeScript and Tailwind CSS
+- Responsive header navigation with mobile menu
+- Hero section with Jamie's fishing photo and text overlay
+- Features section highlighting guide expertise
+- Photo gallery preview with all fishing photos
+- Clean CTA section with consistent button styling
+- Footer with dynamic copyright year
+- Custom color scheme based on northern Minnesota wilderness
+- Mobile-optimized layout with bottom text overlay
+
+**🚧 In Progress:**
+- Homepage is complete and styled
+- About page structure created (needs content)
+- All page routes created but need content
+
+**📋 Todo:**
+- About page with Jamie and Brittney bios
+- Services page with trip options and pricing
+- Gallery page with full photo collection
+- Booking page with scheduling interface
+- Contact and FAQ pages with content
+- Integration with booking/payment systems
 
 ## Notes
 

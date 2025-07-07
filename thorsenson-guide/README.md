@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tiller Bros Guide Service Website
+
+A modern, responsive website for James ("Jamie") Thorstenson's fishing guide business in Ely, Minnesota. Built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Responsive Design**: Mobile-first approach optimized for all devices
+- **Hero Section**: Stunning fishing photography with compelling call-to-action
+- **Photo Gallery**: Showcase of recent catches and fishing adventures
+- **Professional Layout**: Clean, modern design reflecting the northern Minnesota wilderness
+- **Performance Optimized**: Built with Next.js for fast loading and SEO
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm
+
+### Development Server
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server (configured for port 3001)
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Alternative with Turbopack (better for WSL)
+npm run dev-turbo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Other Commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build    # Production build
+npm run start    # Start production server  
+npm run lint     # Run ESLint
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                 # Next.js app router pages
+│   ├── about/          # About page
+│   ├── booking/        # Booking page  
+│   ├── contact/        # Contact page
+│   ├── faq/           # FAQ page
+│   ├── gallery/       # Photo gallery
+│   ├── services/      # Services page
+│   └── page.tsx       # Homepage
+├── components/         # Reusable components
+│   ├── layout/        # Header, Footer
+│   ├── ui/           # UI components
+│   └── forms/        # Form components
+└── lib/              # Utilities
+public/
+└── photos/           # Fishing and family photos
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom color scheme
+- **Icons**: Heroicons
+- **Forms**: React Hook Form with Zod validation
+- **Image Optimization**: Next.js Image component
+- **Development**: Turbopack for fast hot reload
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy to Vercel (recommended):
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/thorsenson-guide)
+
+## License
+
+Private project for Tiller Bros Guide Service.

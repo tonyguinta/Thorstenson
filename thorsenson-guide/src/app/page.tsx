@@ -22,10 +22,10 @@ export default function Home() {
           <div className="flex flex-col justify-end min-h-[70vh]">
             <div className="text-center text-white px-4 max-w-3xl mx-auto">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl mb-6">
-                Discover Ely's Best Fishing
+                Discover Ely&apos;s Best Fishing
               </h1>
               <p className="text-lg leading-8 mb-8 text-gray-100 lg:text-xl">
-                Experience world-class fishing in Minnesota's Boundary Waters with expert guide Jamie Thorstenson. 
+                Experience world-class fishing in Minnesota&apos;s Boundary Waters with expert guide Jamie Thorstenson. 
                 From walleye to northern pike, create memories that last a lifetime.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -133,7 +133,7 @@ export default function Home() {
               Recent Catches
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              See what our clients have been catching in Ely's pristine waters
+              See what our clients have been catching in Ely&apos;s pristine waters
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
