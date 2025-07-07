@@ -11,10 +11,10 @@ export default function FAQ() {
       questions: [
         {
           question: "How far in advance should I book?",
-          answer: "We recommend booking 2-4 weeks in advance, especially during peak season (June-August). However, we sometimes have last-minute availability, so don&apos;t hesitate to call even for short notice trips."
+          answer: "We recommend booking 2-4 weeks in advance, especially during peak season (June-August). However, we sometimes have last-minute availability, so don't hesitate to call even for short notice trips."
         },
         {
-          question: "What&apos;s included in the price?",
+          question: "What's included in the price?",
           answer: "All trips include professional guide service, high-quality fishing equipment, tackle, bait, safety equipment, and fish cleaning. Full-day trips also include shore lunch and cooler with ice. See our Services page for detailed inclusions."
         },
         {
@@ -22,7 +22,7 @@ export default function FAQ() {
           answer: "Yes, we require a 50% deposit to secure your booking. The remaining balance is due on the day of your trip. We accept cash, check, or card payments."
         },
         {
-          question: "What&apos;s your cancellation policy?",
+          question: "What's your cancellation policy?",
           answer: "We offer full refunds for cancellations made 72 hours or more before your trip. Weather-related cancellations (determined by the guide for safety) are fully refundable or can be rescheduled."
         }
       ]
@@ -40,7 +40,7 @@ export default function FAQ() {
         },
         {
           question: "What if the weather is bad?",
-          answer: "Safety is our top priority. If conditions are unsafe, we&apos;ll contact you 24 hours before (or morning of) to reschedule or provide a full refund. Light rain usually doesn&apos;t stop us - fish often bite better in overcast conditions!"
+          answer: "Safety is our top priority. If conditions are unsafe, we'll contact you 24 hours before (or morning of) to reschedule or provide a full refund. Light rain usually doesn't stop us - fish often bite better in overcast conditions!"
         },
         {
           question: "How many people can go on one trip?",
@@ -53,10 +53,10 @@ export default function FAQ() {
       questions: [
         {
           question: "What types of fish can we catch?",
-          answer: "Ely&apos;s waters are home to walleye, northern pike, bass (largemouth and smallmouth), lake trout, and various panfish. Species availability depends on season, location, and conditions. James will target species based on your preferences and current conditions."
+          answer: "Ely's waters are home to walleye, northern pike, bass (largemouth and smallmouth), lake trout, and various panfish. Species availability depends on season, location, and conditions. James will target species based on your preferences and current conditions."
         },
         {
-          question: "What&apos;s the best time of year to fish?",
+          question: "What's the best time of year to fish?",
           answer: "Open water season runs May through October. June-August is peak season with warmest weather. May and September offer excellent fishing with fewer crowds. We also offer ice fishing December through March for a unique winter experience."
         },
         {
@@ -65,7 +65,7 @@ export default function FAQ() {
         },
         {
           question: "What if we don't catch anything?",
-          answer: "While we can&apos;t guarantee fish (that&apos;s why it&apos;s called fishing, not catching!), James&apos;s local knowledge and 38+ years of experience give you the best possible chance. We focus on the complete experience - enjoying nature, learning techniques, and having fun on the water."
+          answer: "While we can't guarantee fish (that's why it's called fishing, not catching!), James's local knowledge and 38+ years of experience give you the best possible chance. We focus on the complete experience - enjoying nature, learning techniques, and having fun on the water."
         }
       ]
     },
@@ -74,19 +74,19 @@ export default function FAQ() {
       questions: [
         {
           question: "Where do we meet?",
-          answer: "Meeting locations vary depending on which lakes we&apos;ll be fishing. James will provide specific directions and GPS coordinates when you book. Most launches are within 30 minutes of Ely."
+          answer: "Meeting locations vary depending on which lakes we'll be fishing. James will provide specific directions and GPS coordinates when you book. Most launches are within 30 minutes of Ely."
         },
         {
           question: "Do you provide transportation?",
-          answer: "Transportation to the boat launch is not included - you&apos;ll need to meet us there. However, we provide the boat, motor, fuel, and all on-water transportation during your trip."
+          answer: "Transportation to the boat launch is not included - you'll need to meet us there. However, we provide the boat, motor, fuel, and all on-water transportation during your trip."
         },
         {
           question: "What about lunch on full-day trips?",
-          answer: "Full-day trips include a traditional shore lunch where we prepare your fresh-caught fish over an open fire, along with sides. It&apos;s a highlight of the experience! We can accommodate dietary restrictions with advance notice."
+          answer: "Full-day trips include a traditional shore lunch where we prepare your fresh-caught fish over an open fire, along with sides. It's a highlight of the experience! We can accommodate dietary restrictions with advance notice."
         },
         {
           question: "Are there bathroom facilities?",
-          answer: "Most launch sites have basic facilities. During the trip, we&apos;re in wilderness areas where facilities aren&apos;t available. James will brief you on what to expect and provide guidance for longer trips."
+          answer: "Most launch sites have basic facilities. During the trip, we're in wilderness areas where facilities aren't available. James will brief you on what to expect and provide guidance for longer trips."
         }
       ]
     },
@@ -107,7 +107,7 @@ export default function FAQ() {
         },
         {
           question: "Can we bring alcohol?",
-          answer: "We don&apos;t permit alcohol during fishing trips for safety reasons. However, we&apos;re happy to celebrate your catches with photos and stories! Non-alcoholic beverages are encouraged."
+          answer: "We don't permit alcohol during fishing trips for safety reasons. However, we're happy to celebrate your catches with photos and stories! Non-alcoholic beverages are encouraged."
         }
       ]
     }
@@ -138,7 +138,7 @@ export default function FAQ() {
             <div className="bg-blue-50 rounded-xl p-6 mb-12 text-center">
               <h2 className="text-xl font-bold text-gray-900 mb-2">Still have questions?</h2>
               <p className="text-gray-600 mb-4">
-                We&apos;re here to help! Contact us directly for personalized answers.
+                We're here to help! Contact us directly for personalized answers.
               </p>
               <div className="flex justify-center space-x-4">
                 <a 
@@ -201,7 +201,7 @@ export default function FAQ() {
             <div className="bg-blue-900 text-white rounded-xl p-8 text-center mt-12">
               <h2 className="text-2xl font-bold mb-4">Ready to Book Your Adventure?</h2>
               <p className="text-blue-100 mb-6">
-                Don&apos;t see your question answered? We&apos;d love to chat and help plan your perfect fishing trip.
+                Don't see your question answered? We'd love to chat and help plan your perfect fishing trip.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
